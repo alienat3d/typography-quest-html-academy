@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  color: #FFF;
+  background-color: #000;
+}
+
+.container {
+  max-width: 853px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
+.header__inner {
+  width: 1000px;
+  height: 1136px;
+  background-image: url("../images/programmer-in-the-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 128px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 85px;
+}
+.title span{
+  color: #F66C41;
+}
+.header__title{
+  margin: 105px 74px 861px 73px;
+}
+.prepare-for-joke{
+  margin: 0 74px 90px 73px;
+}
+.prepare-for-joke__h-secondary{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  color: #BCBBBB;
+  margin-bottom: 90px;
+}
+.prepare-for-joke__h-secondary span{
+  text-decoration: line-through;
+}
+.prepare-for-joke__title{
+  margin-bottom: 20px;
+}
+.prepare-for-joke__list-title{
+  font-size: 36px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+.prepare-for-joke__list{
+  margin-bottom: 90px;
+}
+.prepare-for-joke__list-item{
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+}
+.joke{
+  margin: 0 74px 90px 73px;
+}
+.joke__title{
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 85px;
+  margin-bottom: 20px;
+}
+.joke__text{
+  width: 810px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.footer__inner{
+  padding: 0 74px 104px 73px;
+}
+.footer__link{
+  color: #F66C41;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
